@@ -35,7 +35,7 @@ jobs:
         uses: actions/configure-pages@v2
       - name: CDN
         run: |
-          find ./docs -type f -name '*.html' -exec sed -i 's#/_nuxt/img/#https://raw.githubusercontents.com/istoreos/istoreos.github.io/pages/docs/_nuxt/img/#g' '{}' ';'
+          find ./docs -type f -name '*.html' -exec sed -i 's#"/_nuxt/img/#"https://raw.githubusercontents.com/istoreos/istoreos.github.io/pages/docs/_nuxt/img/#g' '{}' ';'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
