@@ -5,6 +5,8 @@
     var history = w.history;
     history.pushState = function(state, unused, url) {
       if (url) {
+        if (!url.endsWith("/"))
+            url = url + "/";
         console.log("reload", url);
         w.location.href = url;
         return;
