@@ -1,0 +1,23 @@
+[
+  {
+    "index": 0,
+    "cover": "https://assets.koolcenter.com/koolcenter/activity/r86s_activity_cover.png",
+    "link": "https://www.koolcenter.com/posts/350",
+    "title": "R86s团购活动开始了",
+    "ongoing": true
+  },
+  {
+    "index": 1,
+    "cover": "https://assets.koolcenter.com/koolcenter/activity/t68m_activity_cover.png",
+    "link": "https://www.koolcenter.com/posts/350",
+    "title": "T68m 抢购进行中",
+    "ongoing": false
+  },
+  {
+    "index": 2,
+    "cover": "https://assets.koolcenter.com/koolcenter/activity/tuf_ax5400_wechat_qrcode.jpg",
+    "link": "https://www.koolcenter.com/posts/350",
+    "title": "AX5400 抢购!!!",
+    "ongoing": false
+  }
+]
